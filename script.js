@@ -147,5 +147,4 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', updateNavOnScroll);
     
     // 初始化
-    updateCarousel();
-});
+    updateCarousel();});
