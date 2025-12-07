@@ -1,8 +1,407 @@
 <!DOCTYPE html>
-<html lang="cn">
+<html lang="en">
 <head>
-    <meta charset="UTF=8">
-    <meta name="viewport" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>放課後ティータイム</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body></body>
-</html>
+<body>
+    <div class="bar">
+        <nav class="simple-coldplay-nav">
+            <a href="#home" class="nav-item active">Home</a>
+            <a href="#band-intro" class="nav-item">Journey</a>
+            <a href="#about" class="nav-item">Members</a>
+            <a href="#music" class="nav-item">Music</a>
+            <a href="#event" class="nav-item">Events</a>
+            <a href="#contact" class="nav-item">Contact</a>
+        </nav>
+    </div>
+
+
+    
+    <!--home-->
+    <section id="home" class="section">
+        <!-- 轮播图容器 -->
+        <div class="hero-carousel">
+            <div class="carousel-track">
+                
+                <div class="carousel-slide">
+                    <img src="homepage.webp" alt="Band Members">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="carousel-slide active">
+                    <img src="images/7.jpg" alt="Band Performance">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/18.jpg" alt="Studio Session">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/9.jpg" alt="Live Concert">
+                    <div class="slide-overlay"></div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/19.jpg" alt="Band Members">
+                    <div class="slide-overlay"></div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container1">
+            <h1>Ho-Kago Tea Time</h1>
+            <h2>放課後ティータイム</h2>
+            <p>From Sakuragaoka High School to the world stage</p>
+        </div>
+
+        <!-- 轮播导航按钮 -->
+        <div class="carousel-nav">
+            <button class="carousel-button prev-btn">‹</button>
+            <button class="carousel-button next-btn">›</button>
+        </div>
+
+        <!-- 轮播指示器 -->
+        <div class="carousel-indicators">
+            <div class="indicator active" data-index="0"></div>
+            <div class="indicator" data-index="1"></div>
+            <div class="indicator" data-index="2"></div>
+            <div class="indicator" data-index="3"></div>
+            <div class="indicator" data-index="4"></div>
+        </div>
+
+    </section>
+
+
+
+    
+    <!--NEW BUY-->
+    <section id="featured-event" class="section">
+    <div class="featured-event-container">
+        <div class="event-poster">
+            <div class="poster-content">
+                <h2 class="event-title">10th Anniversary Concert</h2>
+                <h3 class="event-subtitle">Return to Budokan</h3>
+                
+                <div class="event-details">
+                    <div class="detail-item">
+                        <i class="far fa-calendar-alt"></i>
+                        <div>
+                            <p class="detail-value">March 21, 2026 • 18:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <p class="detail-value">Nippon Budokan, Tokyo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <i class="fas fa-music"></i>
+                        <div>
+                            <p class="detail-value">After School Tea Time • Sakura High Light Music Club</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ticket-info">
+                    <p class="ticket-status"><i class="fas fa-ticket-alt"></i> Tickets on sale January 15, 2026</p>
+                    <button class="remind-btn">
+                        <i class="fas fa-bell"></i> Set Reminder
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+    <section id="about" class="section">
+        <div class="container2">
+            <h2> Us</h2>
+            <div class = "members">
+                <div class="member">
+                    <img src="images/1.jpg" alt="Yui Hirasawa">
+                    <div class="member-info">
+                        <h3>Yui Hirasawa</h3>
+                        <p>Lead Guitar & Vocals</p>
+                    </div>
+                </div>
+            
+                <div class="member">
+                    <img src="images/2.jpg" alt="Mio Akiyama">
+                    <div class="member-info">
+                        <h3>Mio Akiyama</h3>
+                        <p>Bass & Vocals</p>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="images/3.jpg" alt="Ritsu Tainaka">
+                    <div class="member-info">
+                    <h3>Ritsu Tainaka</h3>
+                    <p>Drums</p>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="images/4.jpg" alt="Tsumugi Kotobuki">
+                    <div class="member-info">
+                    <h3>Tsumugi Kotobuki</h3>
+                    <p>Keyboard</p>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="images/5.jpg" alt="Nakano Azusa">
+                    <div class="member-info">
+                    <h3>Nakano Azusa</h3>
+                    <p>Guitar</p>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--songs-->
+    <section id="music" class="section">
+        <div class="container">
+            <h2>Our Music</h2>
+
+        <div class="music-grid">
+            <div class="music-item" data-category="single">
+                <a href="https://open.spotify.com/track/37WXM4pfUpz5uRzzukjnqS?si=b9456dd1290e4fe0" target="_blank" class="cover-link">
+                   <img src="images/sq3.jpg" alt="Listen!!"> 
+                </a>
+                <h3>Listen!!</h3>
+                <p>2009   Single<p>
+            </div>
+            <div class="music-item" data-category="single">
+                <a href="https://open.spotify.com/track/0SeOsmdYkzWqnlF5ttO0Jm?si=8d808caaa4a8489b" target="_blank" class="cover-link">
+                   <img src="images/sq8.jpg" alt="Cagayake! GIRLS">
+                </a>
+                <h3>Cagayake! GIRLS</h3>
+                <p>2009   Single<p>
+            </div>
+            <div class="music-item" data-category="album">
+                <a href="https://open.spotify.com/track/2OPyrUFSWm0rC0oCfTLzF3?si=fc5db34519c445e5" target="_blank" class="cover-link">
+                   <img src="images/sq6.jpg" alt="Ho-kago Tea Time">
+                </a>
+                <h3>Ho-kago Tea Time</h3>
+                <p>2010   Album<p>
+            </div>
+            <div class="music-item" data-category="album">
+                <a href="https://open.spotify.com/track/73RtKhKwyw31Nk2XMXN4uQ?si=e60ab6eb36de4523" target="_blank" class="cover-link">
+                   <img src="images/sq5.jpg" alt="Don't Say Lazy">
+                </a>
+                <h3>NO,Thank You!</h3>
+                <p>2013   Album<p>
+            </div>
+            <div class="music-item" data-category="live">
+                <a href="https://open.spotify.com/track/122LTTfqKfL5G2Mo1rgC1g?si=7fa0c6f57f5f464d" target="_blank" class="cover-link">
+                    <img src="images/sq13.jpg" alt="天使にふれたよ! ">
+                </a>
+                <h3>天使にふれたよ! </h3>
+                <p>2011   Live<p>
+            </div>
+            <div class="music-item" data-category="live">
+                <a href="https://open.spotify.com/track/5A0d3GnBCF8x4WJgvJhhgO?si=bc412335761548d7" target="_blank" class="cover-link">
+                    <img src="images/sq10.jpg" alt="U&I">
+                </a>
+                <h3>U&I</h3>
+                <p>2010   Live<p>
+            </div>
+            <div class="music-item" data-category="album">
+                <a href="https://open.spotify.com/track/0XnowMTCVColUCOweI4eV0?si=f8a78603416f4afc" target="_blank" class="cover-link">
+                    <img src="images/sq16.jpg" alt="ふわふわ時間">
+                </a>
+                <h3>ふわふわ時間</h3>
+                <p>2013   Album<p>
+            </div>
+            <div class="music-item" data-category="live">
+                <a href="https://open.spotify.com/track/1VfdlwdOHsYkPIG2hGzYPA?si=c67f4f0a77844824" target="_blank" class="cover-link">
+                    <img src="images/sq1.jpg" alt="わたしの恋はホッチキス ">
+                </a>
+                <h3>わたしの恋はホッチキス </h3>
+                <p>2009   single<p>
+            </div>
+            <div class="music-item" data-category="live">
+                <a href="https://open.spotify.com/track/1VfdlwdOHsYkPIG2hGzYPA?si=c67f4f0a77844824" target="_blank" class="cover-link">
+                    <img src="images/sq4.jpg" alt="Go!Go!Maniac">
+                </a>
+                <h3>Go!Go!Maniac</h3>
+                <p>2013   album<p>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--buy-->
+    <section id="store" class="section">
+    <div class="container">
+        <h2>Official Store</h2>
+        <div class="album-store">
+            <div class="album-card">
+            <div class="album-right">
+                <img src="images/IMG.png" alt="Complete Collection Album">
+            </div>
+            <div class="album-left">
+                <div class="album-info">
+                    <h3>Complete Collection Box Set</h3>
+                    <p>Includes all singles, albums, and live recordings from 2009-2013</p>
+                    <p class="price">¥9,800</p>
+                    <div class="sold-out-badge">Limited Edition</div>
+                    <button class="buy-btn sold-out" data-album="complete-collection">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!--reservation-->
+    <section id="event" class="section">
+    <div class="container">
+        <h2>Upcoming Events</h2>
+        
+        <div class="events-simple-vertical">
+            <!-- 1-->
+            <div class="event-simple-card">
+                <div class="event-simple-info">
+                    <h3>School Festival 2025</h3>
+                    <div class="event-meta">
+                        <span><i class="far fa-calendar"></i> Dec 15, 2025</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Sakuragaoka High School</span>
+                    </div>
+                </div>
+                <button class="book-simple-btn">Reserve</button>
+            </div>
+            
+            <!-- 2 -->
+            <div class="event-simple-card">
+                <div class="event-simple-info">
+                    <h3>Winter Live Tour</h3>
+                    <div class="event-meta">
+                        <span><i class="far fa-calendar"></i> Jan 20, 2026</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Tokyo Dome</span>
+                    </div>
+                </div>
+                <button class="book-simple-btn primary">Reserve</button>
+            </div>
+            
+            <!-- 3 -->
+            <div class="event-simple-card">
+                <div class="event-simple-info">
+                    <h3>Anime Festival Asia</h3>
+                    <div class="event-meta">
+                        <span><i class="far fa-calendar"></i> Mar 10, 2026</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Singapore</span>
+                    </div>
+                </div>
+                <button class="book-simple-btn">Reserve</button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!--contact-->
+    <section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Us</h2>
+        
+
+            <div class="contact-form">
+                <h3>Send Message</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Enter subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Type your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+    </div>
+    </section>
+
+    
+    <!--foot -->
+    <footer id="main-footer">
+    <div class="footer-container">
+        <div class="footer-brand">
+            <h3>Ho-Kago Tea Time</h3>
+            <p class="tagline">Light music from Sakuragaoka High School</p>
+            <p class="copyright">© 2023 Ho-Kago Tea Time. All rights reserved.</p>
+        </div>
+        
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <div class="footer-contact-info">
+                <div class="footer-contact-item">
+                    <div class="footer-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="footer-text">
+                        <p><strong>Location</strong><br>
+                        Sakuragaoka High School Light Music Club<br>
+                        Tokyo, Japan</p>
+                    </div>
+                </div>
+                <div class="footer-contact-item">
+                    <div class="footer-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="footer-text">
+                        <p><strong>Email</strong><br>
+                        contact@hokagoteatime.com<br>
+                        booking@hokagoteatime.com</p>
+                    </div>
+                </div>
+                <div class="footer-contact-item">
+                    <div class="footer-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="footer-text">
+                        <p><strong>Phone</strong><br>
+                        +81 3-XXXX-XXXX (Office)<br>
+                        +81 90-XXXX-XXXX (Booking)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="footer-bottom">
+        <p>© 2023 Ho-Kago Tea Time. All Rights Reserved. | 
+           <a href="#">Privacy Policy</a> | 
+           <a href="#">Terms of Service</a></p>
+    </div>
+    </footer>
+
+    
+    <!--Java-->
+    <script src="script.js"></script>
